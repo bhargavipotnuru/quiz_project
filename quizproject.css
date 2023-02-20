@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+background-color: aqua;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  #quiz-results {
+    margin-top: 20px;
+  }
+  

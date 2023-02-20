@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz Project</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="quizproject.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Quiz Project</h1>
+		<p>Answer the following questions:</p>
+		<form id="quiz-form">
+			<div class="form-group">
+				<label for="q1"> 1:what is our national flower?</label>:</label>
+				<select class="form-control" id="q1">
+					<option value="">Select an answer</option>
+					<option value="a">rose</option>
+					<option value="b">lotus</option>
+					<option value="c">lily</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="q2">2:what is our nationa lanimal? </label>
+				<select class="form-control" id="q2">
+					<option value="">Select an answer</option>
+					<option value="a">elephant</option>
+					<option value="b">tiger</option>
+					<option value="c">girafee</option>
+				</select>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+		<div id="results"></div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="quizproject.js"></script>
+</body>
+</html>
